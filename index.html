@@ -19,20 +19,20 @@
       <nav>
         <ul class="nav-items">
           <div class="logo-header">
-            <h1 class="head-logo">RectoSpace</h1>
+            <h1 class="head-logo"><a href="#" style="text-decoration: none; color: white;"><span class="logo-part1">Recto</span>S<span class="logo-part2">pace</span></a></h1>
           </div>
-          <li><a href="#" class="list-items" target="_blank">Home</a></li>
-          <li><a href="#" class="list-items" target="_blank">About</a></li>
-          <li><a href="#" class="list-items" target="_blank">Services</a></li>
-          <li><a href="#" class="list-items" target="_blank">Contact</a></li>
+          <li class="li-elements"><a href="#" class="list-items" target="_blank">Home</a></li>
+          <li class="li-elements"><a href="#" class="list-items" target="_blank">About</a></li>
+          <li class="li-elements"><a href="#" class="list-items" target="_blank">Services</a></li>
+          <li class="li-elements"><a href="#" class="list-items" target="_blank">Contact</a></li>
         </ul>
       </nav>
     </header>
     <div class="collapsible-element-section">
       <div class="collabsible-entire">
         <input type="checkbox" id="collabsible-title" />
-        <label for="collabsible-title" class="collabse-title"
-          >Our Products</label
+        <label for="collabsible-title" class="collabse-title" id="collabse-for-js" onclick="clickElement()"
+          >  Our Products</label
         >
         <div class="text-content-collabsible">
           <ul>
@@ -45,6 +45,27 @@
             <li>
               <a href="#" class="space-list" target="_blank"
                 >High power Space Analyzer</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="collabsible-entire2">
+        <input type="checkbox" id="collabsible-title2" />
+        <label for="collabsible-title2" class="collabse-title" id="collabse-for-js2" onclick="clickElement()"
+          >  Our Partners</label
+        >
+        <div class="text-content-collabsible2">
+          <ul>
+            <li>
+              <a href="#" class="space-list2" target="_blank">
+                Blue Origin</a
+              >
+            </li>
+            <li><a href="#" class="space-list2" target="_blank">SpaceX</a></li>
+            <li>
+              <a href="#" class="space-list2" target="_blank"
+                >Roscosmos</a
               >
             </li>
           </ul>
@@ -150,5 +171,6 @@
           </dl>
         </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
