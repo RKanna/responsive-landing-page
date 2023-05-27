@@ -240,8 +240,9 @@ td {
   color: white;
 }
 .faq-section {
+
   min-width: 100vh;
-  min-height: 20vh;
+  min-height: auto;
 }
 .faq-element-div {
   display: flex;
@@ -346,22 +347,22 @@ td {
 
 @media screen and (max-width: 998px) {
   body {
-    max-width: 100vh;
-    max-height: 100vh;
+    min-width: 100vh;
+    min-height: 100vh;
   }
   .product-elements {
     flex-direction: column;
     margin-top: 10rem;
   }
   th {
-    font-size: 1rem;
+    font-size: 2rem;
     padding-right: 2rem;
     padding-bottom: 1rem;
     color: white;
   }
   td {
     padding-bottom: 2rem;
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
   }
   .list-items {
@@ -375,10 +376,10 @@ td {
     margin-top: 1rem;
   }
   .comm-h {
-    width: 20rem;
+    width: 35rem;
   }
   .comm-p {
-    width: 20rem;
+    width: 35rem;
   }
   .faq-element-div {
     margin-top: 100rem;
@@ -394,5 +395,8 @@ td {
   .nav-items {
     justify-content: center;
     align-items: center;
+  }
+  .faq-element-div {
+    margin-top: -1rem;
   }
 }
